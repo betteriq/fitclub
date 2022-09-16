@@ -1,4 +1,46 @@
 .hero {
   display: flex;
+  /* flex-direction: row; */
   justify-content: space-evenly;
+}
+.left-side {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+}
+.logo{
+  width: 10rem;
+  height: 3rem;
+}
+.right-side {
+  flex: 1;
+  background-color: var(--orange);
+}
+.header-left {
+  display: flex;
+  padding: 1rem;
+}
+.header-left ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  color: white;
+}
+.button-left {
+  padding: 1rem 0.5rem;
+  border-radius: 50px;
+  background-color: var(--gray);
+  width: fit-content;
+}
+.st{
+  /* display: flex; */
+  /* flex-direction: column; */
+  font-size: 5rem;
+}
+.st span:nth-child(2){
+  color: white;
+}
+.hero .left-side>div:nth-child(4){
+  font-size: 5rem;
+  color: white;
 }
