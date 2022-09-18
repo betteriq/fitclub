@@ -1,0 +1,11 @@
+.programshop{
+    padding: 2rem;
+
+}
+.programshop-p-1{
+    display: flex;
+    justify-content: space-between;
+    font-size: 3rem;
+    font-weight: 700;
+    font-style: italic;
+}

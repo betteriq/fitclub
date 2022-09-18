@@ -9,10 +9,70 @@
   top: 2rem;
   color: black;
 }
-.heart{
+.heart {
   display: flex;
   flex-direction: column;
   background-color: var(--darkGrey);
   width: fit-content;
   gap: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+  position: absolute;
+  right: 4rem;
+  align-items: flex-start;
+  top: 7rem;
+}
+.heart > img {
+  width: 2rem;
+}
+.heart > :nth-child(2) {
+  /* background-color: #fff; */
+  color: var(--gray);
+}
+.heart > :nth-child(3) {
+  color: #fff;
+  font-size: 1.5rem;
+}
+.hero-image {
+  position: absolute;
+  top: 10rem;
+  right: 8rem;
+  width: 23rem;
+}
+.hero-image-back {
+  position: absolute;
+  top: 4rem;
+  right: 20rem;
+  width: 15rem;
+  z-index: -1;
+}
+.calories {
+  display: flex;
+  /* flex-direction: column; */
+  width: fit-content;
+  background-color: var(--caloryCard);
+  border-radius: 3px;
+  padding: 1rem;
+  position: absolute;
+  top: 33rem;
+  right: 28rem;
+  gap: 2rem;
+}
+.calories > img {
+  width: 3rem;
+}
+.calories > div {
+  /* background-color: #fff; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* gap: 1rem; */
+}
+.calories > div > :nth-child(1) {
+  /* color: aqua; */
+  color: var(--gray);
+}
+.calories > div >:nth-child(2){
+  color: #fff;
+  font-size: 1.5rem;
 }

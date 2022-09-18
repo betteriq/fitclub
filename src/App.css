@@ -15,9 +15,10 @@
   background-color: var(--appColor);
   /* display: flex; */
   /* flex-direction: column; */
-  /* gap: 6rem; */
+  /* gap: 6rem;   */
   overflow: hidden;
   list-style: none;
+  /* padding:0 2rem ; */
 
 }
 /* ::-webkit-scrollbar {
