@@ -1,11 +1,37 @@
-.programshop{
-    padding: 2rem;
-
+.programshop {
+  padding: 2rem;
 }
-.programshop-p-1{
-    display: flex;
-    justify-content: space-between;
-    font-size: 3rem;
-    font-weight: 700;
-    font-style: italic;
+.programshop svg {
+  fill: #fff;
+  height: 2rem;
+  width: 2rem;
+}
+.programshop-p-1 {
+  display: flex;
+  justify-content: space-around;
+  font-size: 3rem;
+  font-weight: 700;
+  font-style: italic;
+  text-transform: uppercase;
+}
+.programshop-p-1 > :nth-child(2) {
+  color: #fff;
+}
+.programshop-p-2 {
+  gap: 2rem;
+  display: flex;
+  color: #fff;
+  /* flex-direction: column; */
+  /* flex-direction: ; */
+  /* background-color: #fff; */
+}
+.programshop-p-2 > * {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+}
+.programshop-p-2 div > :nth-child(2) {
+  font-size: 1rem;
+  font-weight: 700;
 }
