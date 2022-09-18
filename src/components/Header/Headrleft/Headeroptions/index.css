@@ -1,0 +1,17 @@
+.header-options {
+  color: #fff;
+  gap: 2rem;
+  display: flex;
+}
+
+.header-options > div {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+.header-options>div>span:nth-child(1){
+    font-size: 2rem;
+}
+.header-options>div>span:nth-child(2){
+    color: var(--gray);
+}

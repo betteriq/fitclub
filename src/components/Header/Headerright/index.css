@@ -1,4 +1,18 @@
 .right-side {
   flex: 1;
   background-color: var(--orange);
+  position: relative;
+}
+.right-side > button {
+  position: absolute;
+  right: 3rem;
+  top: 2rem;
+  color: black;
+}
+.heart{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--darkGrey);
+  width: fit-content;
+  gap: 1rem;
 }
