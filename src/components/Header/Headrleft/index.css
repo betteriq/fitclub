@@ -11,7 +11,7 @@
 }
 
 
-.button-left {
+.notife-left {
   position: relative;
   padding: 20px 13px;
   border-radius: 4rem;
@@ -24,7 +24,7 @@
   color: #fff;
   display: flex;
 }
-.button-left > div {
+.notife-left > div {
   position: absolute;
   width: 5.4rem;
   height: 80% ;
@@ -54,4 +54,17 @@
   font-weight: 200;
   letter-spacing: 1px;
   width: 80%;
+}
+.button-leftside{
+  display: flex;
+  gap: 1rem;
+}
+.button-leftside > button{
+  width: 8rem;
+  background-color: transparent;
+  border: 2px solid var(--orange);
+  color: #fff;
+}
+.button-leftside > button:hover{
+  background-color: var(--orange);
 }
