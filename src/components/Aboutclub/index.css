@@ -1,0 +1,17 @@
+.about-club {
+  padding:10rem 2rem;
+  margin-bottom: 10rem;
+  display: flex;
+  /* grid-template: 2rem */
+}
+.left-r {
+  flex: 1;
+  display: grid;
+  grid-template: 
+            "a a a" 40px
+            "b c c" 40px
+            "b c c" 40px / 1fr 1fr 1fr;
+}
+.right-r {
+  flex: 1;
+}
