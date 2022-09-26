@@ -23,7 +23,19 @@ const index = () => {
                 <img src={image4} alt="" />
             </div>
             <div className="right-r">
-
+                <span>SOME REASONS</span>
+                <div className="right-r-first-div">
+                    <span className="stroke-text">WHY</span>
+                    <span>CHOOSE US?</span>
+                    <ul>
+                        <li>OVER 140+ EXPERT COACHS</li>
+                        <li>TRAIN SMARTER AND FASTER THAN BEFORE</li>
+                        <li>1 FREE PROGRAM FOR NEW MEMBER</li>
+                        <li>RELIABLE PARTNERS</li>
+                    </ul>
+                    <span></span>
+                    <div></div>
+                </div>
             </div>
 
         </div>
