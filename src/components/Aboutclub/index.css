@@ -1,17 +1,34 @@
 .about-club {
-  padding:10rem 2rem;
+  padding: 10rem 2rem;
   margin-bottom: 10rem;
   display: flex;
   /* grid-template: 2rem */
 }
 .left-r {
-  flex: 1;
+  flex: 3;
+  background-color: #fff;
+  /* justify-content: start; */
   display: grid;
-  grid-template: 
-            "a a a" 40px
-            "b c c" 40px
-            "b c c" 40px / 1fr 1fr 1fr;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+  grid-template:
+    "right top top top"
+    "right bottom botton";
 }
 .right-r {
   flex: 1;
+}
+.left-r > img:nth-child(1) {
+  grid-area: right;
+}
+.left-r > img:nth-child(2) {
+  grid-area: top;
+}
+.left-r > img:nth-child(3) {
+  grid-area: bottom;
+  /* display: none; */
+}
+.left-r > img:nth-child(4) {
+  grid-area: bottom;
 }
