@@ -5,15 +5,14 @@
   /* grid-template: 2rem */
 }
 .left-r {
-  flex: 3;
   background-color: #fff;
   /* justify-content: start; */
   display: grid;
   gap: 10px;
-  background-color: #2196F3;
+  background-color: #2196f3;
   padding: 10px;
-  grid-template:
-    "right top top top"
+  grid-template-areas:
+    "right top top"
     "right bottom botton";
 }
 .right-r {
@@ -30,5 +29,5 @@
   /* display: none; */
 }
 .left-r > img:nth-child(4) {
-  grid-area: bottom;
+  grid-area: botton;
 }
